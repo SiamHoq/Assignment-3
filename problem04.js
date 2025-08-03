@@ -1,20 +1,28 @@
-/** Problem 04 - (Delete / Store) */
+// /** Problem 04 - (Delete / Store) */
 
-var fileName= "slipdf.txt";
-// var file = "docx"
+// var fileName= "slipdf.txt";
+// // var file = "docx"
 
-// var file = fileName.charAt('#')
-// console.log("store")
+// // var file = fileName.charAt('#')
+// // console.log("store")
 
-// var file = fileLast.includes("docx")
-//     console.log("jdjc");
+// // var file = fileLast.includes("docx")
+// //     console.log("jdjc");
 
-// var file = fileName.includes("pdf")
-//     console.log("asasc");
+// // var file = fileName.includes("pdf")
+// //     console.log("asasc");
 
-if(fileName.charAt('#') || fileName.includes("pdf") || fileName.includes("docx")){
+// if(fileName.includes('#') || fileName.includes("pdf") || fileName.includes("docx")){
+//     console.log("store");
+// }
+// else{
+//     console.log("delete")
+// }
+
+var fileName = "#exp.mp4";
+
+if (fileName.startsWith('#') || fileName.endsWith("pdf") || fileName.endsWith("docx")) {
     console.log("store");
-}
-else{
-    console.log("delete")
+} else {
+    console.log("delete");
 }
