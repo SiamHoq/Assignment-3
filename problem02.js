@@ -9,5 +9,5 @@ else if(money>=10000){
     console.log("Cycle");
 }
 else{
-    console.log("Chocolate ");
+    console.log("Chocolate");
 }

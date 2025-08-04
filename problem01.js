@@ -6,4 +6,4 @@ var result = 0;
 
 result = area / 2;
 
-console.log("each brother will get : "+result);
+console.log(result);
