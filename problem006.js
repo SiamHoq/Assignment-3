@@ -10,3 +10,4 @@ for (year = 1; year <= experience; year++) {
 
 }
     console.log("final selary : ", startingSalary.toFixed(2));
+
