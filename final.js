@@ -6,7 +6,7 @@ var result = 0;
 
 result = area / 2;
 
-console.log("each brother will get : "+result);
+console.log(result);
 
 
 // Problem - 02  (Cycle or  Laptop)
@@ -20,7 +20,7 @@ else if(money>=10000){
     console.log("Cycle");
 }
 else{
-    console.log("Chocolate ");
+    console.log("Chocolate");
 }
 
 
@@ -42,9 +42,9 @@ for (let day =1 ; day<=lastDay ; day++){
 var fileName = "#exp.mp4";
 
 if (fileName.startsWith('#') || fileName.endsWith("pdf") || fileName.endsWith("docx")) {
-    console.log("store");
+    console.log("Store");
 } else {
-    console.log("delete");
+    console.log("Delete");
 }
 
 
